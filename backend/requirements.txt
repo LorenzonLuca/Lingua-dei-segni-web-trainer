@@ -1,0 +1,11 @@
+flask
+Flask-HTTPAuth
+flask-socketio
+flask-cors
+Flask-SQLAlchemy
+pymysql
+python-dotenv
+bcrypt
+mediapipe
+opencv-python
+pyopenssl
