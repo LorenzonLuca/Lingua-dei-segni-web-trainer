@@ -1,4 +1,4 @@
-# Valutatore_Discromatopsia_Web
+# Lingua-dei-segni-web-trainer
 ## Prerequisiti
  - Python
  - Pip
