@@ -1,5 +1,5 @@
 # Lingua-dei-segni-web-trainer
-## Prerequisiti
+## Prerequisites
  - Python
  - Pip
  - venv
@@ -7,28 +7,30 @@
  - npm
  - MySQL
 
-## Variabili d'ambiente
-Per le variabili d'ambiente sono presenti dei file ".env.example" all'interno delle due cartelle frontend e backend. Rimuovere ".example" e inserire dei valori per ogni variabile.
+## Environment Variables
 
-## Avvio App
-Come prima cosa bisogna creare il database su cui lavorerà l'applicazione. Basta creare il database vuoto, la struttura verrà creata dall'app.
+For the environment variables, there are ".env.example" files in both the frontend and backend folders. Remove ".example" and provide values for each variable.
 
-Per avviare il backend bisogna prima installare le dipendenze all'interno di un virtual environment.
+## Start aplication
+
+First, you need to create the database that the application will use. Simply create an empty database; the app will handle setting up the structure.
+
+To start the backend, you need to install the dependencies inside a virtual environment:
 
 `python -m venv ./venv`
 
-Eseguire
+Then execute:
 
 `./venv/Scripts/activate`
 
 `pip install -r requirements.txt`
 
-`python3 app.py` 
+`python3 app.py`
 
-Per avviare il frontend invece basta eseguire i seguenti comandi all'interno della cartella frontend.
+To start the frontend, simply run the following commands inside the frontend folder:
 
 `npm i`
 
 `npm run dev`
 
-Il sito sarà raggiungibile su "https://localhost:5173"
+The website will be accessible at "https://localhost:5173"
