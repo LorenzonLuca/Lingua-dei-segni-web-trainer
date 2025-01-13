@@ -35,4 +35,4 @@ socket_app = get_socket_manager(app, db, logger, hr)
 
 if __name__ == "__main__":
     logger.info(f"Application started on port {PORT}")
-    socket_app.run(app, host='0.0.0.0', port=PORT, debug=True, ssl_context=('./../signlanguage.crt', './../signlanguage-privateKey.key'))
+    socket_app.run(app, host='0.0.0.0', port=PORT, debug=True, ssl_context=('./../cert.pem', './../key.pem'))

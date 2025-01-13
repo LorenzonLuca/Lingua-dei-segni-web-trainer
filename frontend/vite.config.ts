@@ -5,9 +5,10 @@ import { defineConfig } from 'vite';
 export default defineConfig({
 	server: {
 		https: {
-			key: './../signlanguage-privateKey.key',
-			cert: './../signlanguage.crt',
-		}
+			key: './../key.pem',
+			cert: './../cert.pem',
+		},
+		proxy: {}
 	},
 	plugins: [sveltekit(), purgeCss()]
 });
